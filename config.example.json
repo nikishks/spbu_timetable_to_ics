@@ -1,8 +1,9 @@
 {
   "group_id": 474266,
   "group_name": "24.Б02-вшм",
+  "division": "GSOM",
   "electives": [
-    "Elective. Game Theory"
+    "Электив. Теория игр"
   ],
   "facultatives": [],
   "months_ahead": 8,

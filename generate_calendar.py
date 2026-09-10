@@ -6,6 +6,7 @@ from datetime import date
 from src.spbu_calendar.api import TimetableClient
 from src.spbu_calendar.calendar import build_calendar, included
 from src.spbu_calendar.config import ROOT, Settings
+from src.spbu_calendar.models import Group
 
 
 def add_months(value: date, months: int) -> date:
@@ -18,30 +19,26 @@ def add_months(value: date, months: int) -> date:
 
 def main() -> None:
     settings = Settings.load()
-    client = TimetableClient()
+    group = Group(settings.group_id, settings.group_name, settings.division)
 
     start = date.today()
     end = add_months(start, settings.months_ahead)
 
-    print(f"Группа: {settings.group_name} ({settings.group_id})")
+    print(f"Группа: {group.name}")
     print(f"Период: {start:%d.%m.%Y} — {end:%d.%m.%Y}")
 
-    lessons = client.lessons(settings.group_id, start, end)
-
-    cancelled = [lesson for lesson in lessons if lesson.cancelled]
+    lessons = TimetableClient().lessons(group, start, end)
     selected = [lesson for lesson in lessons if included(lesson, settings)]
-
-    for lesson in cancelled:
-        print(f"Отмена: {lesson.start:%d.%m %H:%M} — {lesson.subject}")
+    cancelled = [lesson for lesson in lessons if lesson.cancelled]
 
     output = ROOT / "docs" / "schedule.ics"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_bytes(build_calendar(lessons, settings))
 
-    print(f"Получено: {len(lessons)}")
+    print(f"Получено занятий: {len(lessons)}")
     print(f"Отменено: {len(cancelled)}")
     print(f"В календаре: {len(selected)}")
-    print(f"Файл: {output}")
+    print(f"Готово: {output}")
 
 
 if __name__ == "__main__":

@@ -26,24 +26,20 @@ def matches(subject: str, selected: list[str]) -> bool:
 def included(lesson: Lesson, settings: Settings) -> bool:
     if lesson.cancelled:
         return False
-
     if lesson.facultative:
         return matches(lesson.subject, settings.facultatives)
-
     if lesson.elective:
         return matches(lesson.subject, settings.electives)
-
     return True
 
 
 def make_uid(lesson: Lesson, group_id: int) -> str:
-    # Keep the UID stable when room or teacher changes.
     key = (
         f"{group_id}|{lesson.start:%Y-%m-%d %H:%M}|"
         f"{normalize(lesson.subject)}"
     )
     digest = hashlib.sha1(key.encode("utf-8")).hexdigest()
-    return f"{digest}@spbu-calendar"
+    return f"{digest}@spbu-timetable-to-ics"
 
 
 def build_calendar(lessons: list[Lesson], settings: Settings) -> bytes:
@@ -51,32 +47,19 @@ def build_calendar(lessons: list[Lesson], settings: Settings) -> bytes:
     generated_at = datetime.now(timezone)
 
     calendar = Calendar()
-    calendar.add("prodid", "-//spbu-calendar//RU")
+    calendar.add("prodid", "-//spbu-timetable-to-ics//RU")
     calendar.add("version", "2.0")
     calendar.add("calscale", "GREGORIAN")
     calendar.add("method", "PUBLISH")
-    calendar.add(
-        "X-WR-CALNAME",
-        settings.calendar_name or f"СПбГУ — {settings.group_name}",
-    )
+    calendar.add("X-WR-CALNAME", settings.calendar_name or f"СПбГУ — {settings.group_name}")
     calendar.add("X-WR-TIMEZONE", settings.timezone)
 
     for lesson in lessons:
         if not included(lesson, settings):
             continue
 
-        start = lesson.start
-        end = lesson.end
-
-        if start.tzinfo is None:
-            start = start.replace(tzinfo=timezone)
-        else:
-            start = start.astimezone(timezone)
-
-        if end.tzinfo is None:
-            end = end.replace(tzinfo=timezone)
-        else:
-            end = end.astimezone(timezone)
+        start = lesson.start.replace(tzinfo=timezone) if lesson.start.tzinfo is None else lesson.start.astimezone(timezone)
+        end = lesson.end.replace(tzinfo=timezone) if lesson.end.tzinfo is None else lesson.end.astimezone(timezone)
 
         event = Event()
         event.add("uid", make_uid(lesson, settings.group_id))

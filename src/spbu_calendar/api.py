@@ -1,315 +1,199 @@
 from __future__ import annotations
 
 import re
-from datetime import date, datetime, time
-from typing import Any, Iterable
-from urllib.parse import quote, urljoin
+from datetime import date, datetime, timedelta
+from urllib.parse import urlparse
 
 import requests
+from bs4 import BeautifulSoup
 
 from .models import Group, Lesson
 
 
-API_BASE = "https://timetable.spbu.ru/api/v1/"
-GROUP_URL_RE = re.compile(
-    r"/StudentGroupEvents/(?:Primary|Secondary)/(?P<id>\d+)",
+BASE_URL = "https://timetable.spbu.ru"
+GROUP_PATH_RE = re.compile(
+    r"^/(?P<division>[^/]+)/StudentGroupEvents/(?:Primary|Secondary)/(?P<id>\d+)(?:/.*)?$",
     re.IGNORECASE,
 )
 
 
-class TimetableError(RuntimeError):
-    pass
+def normalize(value: object) -> str:
+    return re.sub(r"\s+", " ", str(value or "").replace("\xa0", " ").strip())
 
 
-def value_of(obj: dict[str, Any], *names: str, default: Any = None) -> Any:
-    if not isinstance(obj, dict):
-        return default
-
-    lowered = {str(key).casefold(): value for key, value in obj.items()}
-    for name in names:
-        if name in obj:
-            return obj[name]
-        key = name.casefold()
-        if key in lowered:
-            return lowered[key]
-    return default
-
-
-def clean_text(value: Any) -> str:
-    return " ".join(str(value or "").replace("\xa0", " ").split())
-
-
-def parse_datetime(value: Any) -> datetime | None:
-    if isinstance(value, datetime):
-        return value
-    if value is None:
+def parse_time(value: str):
+    text = normalize(value).replace("—", "-").replace("–", "-")
+    parts = [part.strip() for part in text.split("-")]
+    if len(parts) != 2:
+        return None
+    try:
+        return (
+            datetime.strptime(parts[0], "%H:%M").time(),
+            datetime.strptime(parts[1], "%H:%M").time(),
+        )
+    except ValueError:
         return None
 
-    text = str(value).strip()
-    if not text:
+
+def parse_day(value: str, monday: date):
+    months = {
+        "января": 1, "февраля": 2, "марта": 3, "апреля": 4,
+        "мая": 5, "июня": 6, "июля": 7, "августа": 8,
+        "сентября": 9, "октября": 10, "ноября": 11, "декабря": 12,
+    }
+    match = re.search(
+        r"\b(\d{1,2})\s+(января|февраля|марта|апреля|мая|июня|июля|"
+        r"августа|сентября|октября|ноября|декабря)\b",
+        normalize(value).casefold(),
+    )
+    if not match:
         return None
 
-    match = re.fullmatch(r"/Date\((-?\d+)(?:[+-]\d+)?\)/", text)
-    if match:
-        try:
-            return datetime.fromtimestamp(int(match.group(1)) / 1000)
-        except (ValueError, OSError, OverflowError):
-            return None
+    day = int(match.group(1))
+    month = months[match.group(2)]
+    year = monday.year
 
-    if text.endswith("Z"):
-        text = text[:-1] + "+00:00"
+    if monday.month == 12 and month == 1:
+        year += 1
+    elif monday.month == 1 and month == 12:
+        year -= 1
 
     try:
-        return datetime.fromisoformat(text)
+        return date(year, month, day)
     except ValueError:
-        pass
-
-    for fmt in (
-        "%Y-%m-%dT%H:%M:%S",
-        "%Y-%m-%d %H:%M:%S",
-        "%Y-%m-%dT%H:%M",
-        "%Y-%m-%d %H:%M",
-    ):
-        try:
-            return datetime.strptime(text, fmt)
-        except ValueError:
-            continue
-
-    return None
-
-
-def iter_event_dicts(value: Any) -> Iterable[dict[str, Any]]:
-    if isinstance(value, dict):
-        has_subject = value_of(value, "Subject") is not None
-        has_start = value_of(value, "Start") is not None
-        has_end = value_of(value, "End") is not None
-
-        if has_subject and has_start and has_end:
-            yield value
-            return
-
-        for child in value.values():
-            yield from iter_event_dicts(child)
-
-    elif isinstance(value, list):
-        for child in value:
-            yield from iter_event_dicts(child)
-
-
-def iter_group_dicts(
-    value: Any,
-    division: str = "",
-    program: str = "",
-) -> Iterable[Group]:
-    if isinstance(value, list):
-        for item in value:
-            yield from iter_group_dicts(item, division, program)
-        return
-
-    if not isinstance(value, dict):
-        return
-
-    current_division = clean_text(
-        value_of(
-            value,
-            "StudyDivisionName",
-            "DivisionName",
-            "Division",
-            default=division,
-        )
-    ) or division
-
-    current_program = clean_text(
-        value_of(
-            value,
-            "StudyProgramName",
-            "ProgramName",
-            "ProgrammeName",
-            "Program",
-            default=program,
-        )
-    ) or program
-
-    raw_id = value_of(
-        value,
-        "StudentGroupId",
-        "GroupId",
-        "StudentGroupOid",
-    )
-    name = clean_text(
-        value_of(
-            value,
-            "StudentGroupName",
-            "GroupName",
-            default="",
-        )
-    )
-
-    if raw_id is not None and name:
-        try:
-            yield Group(
-                id=int(raw_id),
-                name=name,
-                program=current_program,
-                division=current_division,
-            )
-        except (TypeError, ValueError):
-            pass
-
-    for child in value.values():
-        if isinstance(child, (dict, list)):
-            yield from iter_group_dicts(
-                child,
-                current_division,
-                current_program,
-            )
+        return None
 
 
 class TimetableClient:
-    def __init__(self, timeout: int = 45) -> None:
+    def __init__(self, timeout: int = 60):
         self.timeout = timeout
         self.session = requests.Session()
-        self.session.headers.update(
-            {
-                "Accept": "application/json",
-                "User-Agent": "spbu-calendar/1.0",
-            }
-        )
+        self.session.headers.update({
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/140.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ru-RU,ru;q=0.9",
+        })
+        self._set_russian_locale()
 
-    def _json(self, path: str, params: dict[str, Any] | None = None) -> Any:
-        url = urljoin(API_BASE, path.lstrip("/"))
-        response = self.session.get(url, params=params, timeout=self.timeout)
+    def _set_russian_locale(self) -> None:
+        response = self.session.post(
+            f"{BASE_URL}/Base/SetClientCultureCookie",
+            data={"clientCultureName": "ru"},
+            timeout=self.timeout,
+            allow_redirects=True,
+        )
         response.raise_for_status()
 
-        try:
-            return response.json()
-        except ValueError as exc:
-            raise TimetableError(f"Некорректный ответ timetable.spbu.ru: {url}") from exc
-
-    def lessons(self, group_id: int, start: date, end: date) -> list[Lesson]:
-        start_text = datetime.combine(start, time.min).strftime("%Y%m%d%H%M")
-        end_text = datetime.combine(end, time.max).strftime("%Y%m%d%H%M")
-
-        data = self._json(
-            f"groups/{group_id}/events/{start_text}/{end_text}",
-            params={"timetable": "Primary"},
-        )
-
-        lessons: list[Lesson] = []
-        seen: set[tuple] = set()
-
-        for raw in iter_event_dicts(data):
-            lesson = self._lesson(raw)
-            if lesson is None:
-                continue
-
-            key = (
-                lesson.source_id,
-                lesson.subject,
-                lesson.start,
-                lesson.end,
-                lesson.location,
-                lesson.educator,
-            )
-            if key in seen:
-                continue
-
-            seen.add(key)
-            lessons.append(lesson)
-
-        return sorted(lessons, key=lambda item: (item.start, item.subject.casefold()))
-
-    def _lesson(self, raw: dict[str, Any]) -> Lesson | None:
-        subject = clean_text(value_of(raw, "Subject", default=""))
-        start = parse_datetime(value_of(raw, "Start"))
-        end = parse_datetime(value_of(raw, "End"))
-
-        if not subject or not start or not end:
+    @staticmethod
+    def group_from_url(value: str, name: str = "") -> Group | None:
+        raw = value.strip()
+        if not raw:
             return None
 
-        subject_key = subject.casefold()
+        if "://" not in raw:
+            raw = "https://" + raw.lstrip("/")
 
-        elective = bool(value_of(raw, "IsElective", default=False))
-        if subject_key.startswith(("elective.", "электив")):
-            elective = True
+        parsed = urlparse(raw)
+        if parsed.netloc.casefold() not in {"timetable.spbu.ru", "www.timetable.spbu.ru"}:
+            return None
 
-        # In the current GSOM timetable facultatives are marked in Subject
-        # as "Facultative. ..."; there is no stable public IsFacultative flag.
-        facultative = subject_key.startswith(("facultative.", "факультатив"))
+        match = GROUP_PATH_RE.match(parsed.path.rstrip("/"))
+        if not match:
+            return None
 
-        location = clean_text(
-            value_of(
-                raw,
-                "LocationsDisplayText",
-                "LocationDisplayText",
-                default="",
-            )
-        )
-        educator = clean_text(
-            value_of(
-                raw,
-                "EducatorsDisplayText",
-                "EducatorDisplayText",
-                default="",
-            )
+        return Group(
+            id=int(match.group("id")),
+            name=name or match.group("id"),
+            division=match.group("division"),
         )
 
-        source_id = clean_text(
-            value_of(
-                raw,
-                "EventId",
-                "Id",
-                "Oid",
-                "StudyEventsTimeTableKindCode",
-                default="",
-            )
+    def _week_html(self, group: Group, monday: date) -> str:
+        url = (
+            f"{BASE_URL}/{group.division}/StudentGroupEvents/"
+            f"Primary/{group.id}/{monday.isoformat()}"
         )
+        response = self.session.get(url, timeout=self.timeout)
+        response.raise_for_status()
+        return response.text
 
-        return Lesson(
-            source_id=source_id,
-            subject=subject,
-            start=start,
-            end=end,
-            location=location,
-            educator=educator,
-            cancelled=bool(value_of(raw, "IsCancelled", default=False)),
-            elective=elective,
-            facultative=facultative,
-        )
+    def _parse_week(self, html: str, monday: date) -> list[Lesson]:
+        soup = BeautifulSoup(html, "html.parser")
+        lessons: list[Lesson] = []
 
-    def groups(self) -> list[Group]:
-        """
-        Best-effort discovery.
-
-        The group catalogue has changed shape across timetable.spbu.ru
-        versions. We try the public catalogue endpoints and recursively
-        accept several known field names. setup.py always has a URL/ID
-        fallback, so a catalogue change does not block configuration.
-        """
-        groups: dict[int, Group] = {}
-
-        for path in (
-            "study/divisions",
-            "study/divisions/programs/levels",
-        ):
-            try:
-                data = self._json(path)
-            except (requests.RequestException, TimetableError):
+        for panel in soup.select("div.panel.panel-default"):
+            heading = panel.select_one(".panel-heading .panel-title")
+            if heading is None:
                 continue
 
-            for group in iter_group_dicts(data):
-                groups[group.id] = group
+            lesson_date = parse_day(heading.get_text(" ", strip=True), monday)
+            if lesson_date is None:
+                continue
 
-        return sorted(
-            groups.values(),
-            key=lambda item: (item.name.casefold(), item.id),
-        )
+            for item in panel.select("li.common-list-item"):
+                time_node = item.select_one(".studyevent-datetime .moreinfo")
+                subject_node = item.select_one(".studyevent-subject .moreinfo")
+                if time_node is None or subject_node is None:
+                    continue
 
-    @staticmethod
-    def group_id_from_url(value: str) -> int | None:
-        value = value.strip()
-        if value.isdigit():
-            return int(value)
+                times = parse_time(time_node.get_text(" ", strip=True))
+                if times is None:
+                    continue
+                start_time, end_time = times
 
-        match = GROUP_URL_RE.search(value)
-        return int(match.group("id")) if match else None
+                subject = normalize(subject_node.get_text(" ", strip=True))
+                if not subject:
+                    continue
+
+                location = ""
+                location_node = item.select_one(".studyevent-locations .address-modal-btn")
+                if location_node is not None:
+                    location = normalize(location_node.get("data-address", ""))
+                    if not location:
+                        location = normalize(location_node.get_text(" ", strip=True))
+
+                educators: list[str] = []
+                for node in item.select(".studyevent-educators a"):
+                    educator = normalize(node.get_text(" ", strip=True))
+                    if educator and educator not in educators:
+                        educators.append(educator)
+
+                subject_key = subject.casefold()
+                start = datetime.combine(lesson_date, start_time)
+                end = datetime.combine(lesson_date, end_time)
+
+                lessons.append(Lesson(
+                    source_id=f"{lesson_date.isoformat()}|{start_time.isoformat()}|{subject}",
+                    subject=subject,
+                    start=start,
+                    end=end,
+                    location=location,
+                    educator=", ".join(educators),
+                    cancelled=item.select_one(".cancelled") is not None,
+                    elective=subject_key.startswith("электив"),
+                    facultative=subject_key.startswith("факультатив"),
+                ))
+
+        return lessons
+
+    def lessons(self, group: Group, start: date, end: date) -> list[Lesson]:
+        monday = start - timedelta(days=start.weekday())
+        lessons: list[Lesson] = []
+
+        while monday <= end:
+            print(f"Загрузка недели: {monday:%d.%m.%Y}")
+            weekly = self._parse_week(self._week_html(group, monday), monday)
+            print(f"Получено за неделю: {len(weekly)}")
+            lessons.extend(weekly)
+            monday += timedelta(days=7)
+
+        unique: dict[tuple, Lesson] = {}
+        for lesson in lessons:
+            if not start <= lesson.start.date() <= end:
+                continue
+            key = (lesson.start, lesson.end, lesson.subject, lesson.location, lesson.educator)
+            unique[key] = lesson
+
+        return sorted(unique.values(), key=lambda lesson: (lesson.start, lesson.subject.casefold()))

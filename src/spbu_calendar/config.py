@@ -13,6 +13,7 @@ CONFIG_PATH = ROOT / "config.json"
 class Settings:
     group_id: int
     group_name: str
+    division: str
     electives: list[str]
     facultatives: list[str]
     months_ahead: int = 8
@@ -22,24 +23,26 @@ class Settings:
     @classmethod
     def load(cls) -> "Settings":
         if not CONFIG_PATH.exists():
+            raise SystemExit("config.json не найден. Сначала запустите: python setup.py")
+
+        data = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        required = ("group_id", "group_name", "division")
+        missing = [key for key in required if not data.get(key)]
+        if missing:
             raise SystemExit(
-                "Файл config.json не найден. Сначала запустите: python setup.py"
+                "В config.json отсутствуют поля: " + ", ".join(missing)
+                + ". Запустите python setup.py заново."
             )
 
-        raw = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-
-        group_id = raw.get("group_id", raw.get("student_group_id"))
-        if group_id is None:
-            raise SystemExit("В config.json не указан group_id.")
-
         return cls(
-            group_id=int(group_id),
-            group_name=str(raw.get("group_name", "")),
-            electives=list(raw.get("electives", raw.get("selected_electives", []))),
-            facultatives=list(raw.get("facultatives", [])),
-            months_ahead=int(raw.get("months_ahead", 8)),
-            timezone=str(raw.get("timezone", "Europe/Moscow")),
-            calendar_name=str(raw.get("calendar_name", "")),
+            group_id=int(data["group_id"]),
+            group_name=str(data["group_name"]),
+            division=str(data["division"]),
+            electives=list(data.get("electives", [])),
+            facultatives=list(data.get("facultatives", [])),
+            months_ahead=int(data.get("months_ahead", 8)),
+            timezone=str(data.get("timezone", "Europe/Moscow")),
+            calendar_name=str(data.get("calendar_name", "")),
         )
 
     def save(self) -> None:

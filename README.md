@@ -1,124 +1,144 @@
-# spbu-calendar
+# SPbU Timetable to ICS
 
-Подписной календарь из расписания СПбГУ.
+Небольшой генератор подписного календаря из расписания СПбГУ.
 
-Скрипт получает занятия с `timetable.spbu.ru`, исключает отмены, оставляет выбранные элективы и факультативы и сохраняет результат в `docs/schedule.ics`.
+Он загружает расписание группы с `timetable.spbu.ru`, оставляет выбранные элективы и факультативы, исключает отменённые занятия и создаёт `docs/schedule.ics`. GitHub Actions обновляет файл каждый час.
 
-## Установка
+## Как настроить под себя
+
+### 1. Сделайте Fork
+
+Нажмите **Fork** в правом верхнем углу страницы репозитория и создайте свою копию проекта.
+
+### 2. Клонируйте свой Fork
+
+```bash
+git clone https://github.com/ВАШ-USERNAME/spbu_timetable_to_ics.git
+cd spbu_timetable_to_ics
+```
 
 Нужен Python 3.11 или новее.
 
-```bash
-git clone https://github.com/nikishks/spbu-calendar.git
-cd spbu-calendar
+Создайте окружение и установите зависимости:
 
+```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python setup.py
 ```
 
-На Windows:
+На Windows вместо команды активации:
 
 ```powershell
 .venv\Scripts\activate
 ```
 
-## Настройка
-
-Запустите:
+### 3. Запустите настройку
 
 ```bash
 python setup.py
 ```
 
-Мастер настройки:
+Откройте `timetable.spbu.ru`, найдите свою группу и вставьте в программу полную ссылку на её расписание.
 
-1. предлагает найти группу по названию;
-2. если каталог СПбГУ временно недоступен, принимает ссылку на страницу расписания или ID группы;
-3. загружает расписание выбранной группы;
-4. показывает найденные элективы;
-5. показывает найденные факультативы;
-6. сохраняет выбор в `config.json`.
+Например:
 
-Элективы определяются по признаку `IsElective` API и по префиксу `Elective.`.  
-Факультативы в текущем расписании СПбГУ определяются по префиксу `Facultative.`.
+```text
+https://timetable.spbu.ru/GSOM/StudentGroupEvents/Primary/474266
+```
 
-Повторный запуск `python setup.py` просто перезапишет настройки.
+Программа сама определит ID и подразделение группы, загрузит расписание и предложит выбрать найденные элективы и факультативы.
 
-## Создание календаря
+Настройки сохранятся в `config.json`.
+
+### 4. Проверьте календарь
 
 ```bash
 python generate_calendar.py
 ```
 
-Результат:
+Готовый файл появится здесь:
 
 ```text
 docs/schedule.ics
 ```
 
-Отменённые занятия не добавляются: API СПбГУ передаёт для них `IsCancelled`.
+### 5. Отправьте настройки в свой Fork
 
-## Автообновление
+```bash
+git add .
+git commit -m "Configure my timetable"
+git push
+```
 
-GitHub Actions запускает генератор каждый час:
+После этого GitHub Actions будет пересобирать календарь каждый час.
+
+Если Action не может записать обновлённый ICS, откройте в своём Fork:
+
+**Settings → Actions → General → Workflow permissions → Read and write permissions**
+
+### 6. Опубликуйте календарь
+
+Откройте:
+
+**Settings → Pages**
+
+В разделе **Build and deployment** выберите:
+
+- **Source:** Deploy from a branch
+- **Branch:** main
+- **Folder:** /docs
+
+После публикации адрес будет иметь вид:
 
 ```text
-0 * * * *
+https://ВАШ-USERNAME.github.io/spbu_timetable_to_ics/schedule.ics
 ```
 
-Также генерация запускается вручную и после изменения кода или `config.json`.
+Используйте именно адрес своего Fork. Его можно добавить в календарное приложение как подписной интернет-календарь. При последующих обновлениях расписания ссылка останется той же.
 
-В репозитории нужно разрешить workflow записывать изменения:
+## Что учитывается
 
-`Settings → Actions → General → Workflow permissions → Read and write permissions`
+- обязательные занятия добавляются автоматически;
+- из элективов добавляются только выбранные при настройке;
+- из факультативов добавляются только выбранные при настройке;
+- занятия с официальным маркером `cancelled` на странице СПбГУ не попадают в ICS;
+- расписание запрашивается на русском языке;
+- календарь строится на несколько месяцев вперёд — период задаётся во время настройки.
 
-## GitHub Pages
+## Повторная настройка
 
-Включите публикацию папки `docs` из ветки `main`.
+Если нужно сменить группу, элективы или факультативы:
 
-После этого календарь будет доступен по адресу:
-
-```text
-https://nikishks.github.io/spbu-calendar/schedule.ics
+```bash
+python setup.py
+python generate_calendar.py
+git add .
+git commit -m "Update timetable settings"
+git push
 ```
-
-Этот URL можно добавить в Apple Calendar как подписной календарь.
-
-## config.json
-
-Пример:
-
-```json
-{
-  "group_id": 474266,
-  "group_name": "24.Б02-вшм",
-  "electives": [
-    "Elective. Game Theory"
-  ],
-  "facultatives": [],
-  "months_ahead": 8,
-  "timezone": "Europe/Moscow",
-  "calendar_name": "СПбГУ — 24.Б02-вшм"
-}
-```
-
-Редактировать его вручную необязательно.
 
 ## Структура
 
 ```text
 .
 ├── .github/workflows/update-calendar.yml
-├── docs/
+├── docs/schedule.ics
 ├── src/spbu_calendar/
 │   ├── api.py
 │   ├── calendar.py
 │   ├── config.py
 │   └── models.py
+├── tests/test_calendar.py
+├── config.example.json
 ├── config.json
 ├── generate_calendar.py
-├── setup.py
-└── requirements.txt
+├── requirements.txt
+└── setup.py
 ```
+
+## Источник данных
+
+Расписание берётся с `timetable.spbu.ru`.
+
+Проект не является официальным сервисом Санкт-Петербургского государственного университета.

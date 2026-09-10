@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -6,8 +8,7 @@ from datetime import datetime
 class Group:
     id: int
     name: str
-    program: str = ""
-    division: str = ""
+    division: str
 
 
 @dataclass(frozen=True)
