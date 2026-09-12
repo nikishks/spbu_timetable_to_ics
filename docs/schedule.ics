@@ -9,12 +9,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260916T100000
 DTEND;TZID=Europe/Moscow:20260916T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:68355617bb94fa092a8d5e013189a98cff88728a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -22,12 +22,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260916T114500
 DTEND;TZID=Europe/Moscow:20260916T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:8f3b72391d34c3302253134102f7f498e99125e7@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -36,12 +36,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260918T100000
 DTEND;TZID=Europe/Moscow:20260918T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4bacb57ac7701b34911277e97b2d6f36c56a8608@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 501\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 501
 END:VEVENT
 BEGIN:VEVENT
@@ -49,12 +49,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260918T114000
 DTEND;TZID=Europe/Moscow:20260918T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:002aa2aaa36d3582ac461a5193b597c7714ea3a2@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -62,12 +62,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260918T140000
 DTEND;TZID=Europe/Moscow:20260918T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4e88115006aa8a740ccfb28a05d633bd5f0d9791@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Менделеевская линия\, д. 5\, лит. А\, 0
  027-К\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Менделеевская линия\, д. 5\, лит. А\, 0027
  -К
 END:VEVENT
@@ -75,12 +75,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20260919T141500
 DTEND;TZID=Europe/Moscow:20260919T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:bba173df3ca7ddfc9e90e6a48c269a363ebd1b7c@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -88,12 +88,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20260919T160000
 DTEND;TZID=Europe/Moscow:20260919T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:0202fe707e980b4e35c838123ec4885fbd7cebe0@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -102,22 +102,22 @@ SUMMARY:Философия (онлайн-курс)\, консультац
  ия групповая
 DTSTART;TZID=Europe/Moscow:20260921T193000
 DTEND;TZID=Europe/Moscow:20260921T210000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:b7e150873f33d1dfa3dd76bb882500363ab6637f@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Сиверцев Е. Ю.\nИсто
  чник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260923T100000
 DTEND;TZID=Europe/Moscow:20260923T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e20f661651ea4a53777df8ccc79beb1fead4382e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -125,12 +125,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260923T114500
 DTEND;TZID=Europe/Moscow:20260923T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:2478d2ac571dad1820de6f1f08c3c10d3497d736@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -139,12 +139,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260925T100000
 DTEND;TZID=Europe/Moscow:20260925T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3ec5353943510b12c88c3680f564a874ec90d00c@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 509\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 509
 END:VEVENT
 BEGIN:VEVENT
@@ -152,12 +152,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260925T113000
 DTEND;TZID=Europe/Moscow:20260925T130000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:42f8203572ec835cfd50153cf1121d0bd031ec4b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 509\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 509
 END:VEVENT
 BEGIN:VEVENT
@@ -165,24 +165,24 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20260925T140000
 DTEND;TZID=Europe/Moscow:20260925T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c13f1a98b874ac5af0db868287c150a89221fe2a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 509\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 509
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20260926T141500
 DTEND;TZID=Europe/Moscow:20260926T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4d485cf788745c559bc66e5fd5e622905c88a996@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -190,12 +190,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20260926T160000
 DTEND;TZID=Europe/Moscow:20260926T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4ff85028d1a03562078747d2ff7c69423e31b8eb@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -204,12 +204,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20260928T141500
 DTEND;TZID=Europe/Moscow:20260928T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:5c2ebae783eab91db337f516cdb36e5e6e37de18@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -218,12 +218,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20260928T160000
 DTEND;TZID=Europe/Moscow:20260928T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:28ef6cc6c3e909f40248c83553b42d178e56bf0b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -231,12 +231,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260930T100000
 DTEND;TZID=Europe/Moscow:20260930T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:9d77342fffa6e4f66374800f6bb4138a28466b91@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -244,12 +244,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20260930T114500
 DTEND;TZID=Europe/Moscow:20260930T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:de42e19f52ddc50499f94e5a5d1ae4ab28f779ab@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -258,12 +258,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20260930T141500
 DTEND;TZID=Europe/Moscow:20260930T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a9d9a877211f5b9043d833cb0c8a98ff4c4101f4@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -272,12 +272,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20260930T160000
 DTEND;TZID=Europe/Moscow:20260930T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:32cbee1e795b97123c9a1bd7781603e57e06f72d@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -286,12 +286,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261002T100000
 DTEND;TZID=Europe/Moscow:20261002T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:ebdd53376280de473cb6e6e7472974f7738c0cd1@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -299,12 +299,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261002T113000
 DTEND;TZID=Europe/Moscow:20261002T130000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:acfb7264ef0d7f5983ad8001f091ef465b8e7147@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -312,12 +312,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261002T140000
 DTEND;TZID=Europe/Moscow:20261002T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:7a37ba86cf36f86ee95e4ca9c6523f2c4e9bef28@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Менделеевская линия\, д. 5\, лит. А\, 0
  027-К\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Менделеевская линия\, д. 5\, лит. А\, 0027
  -К
 END:VEVENT
@@ -326,12 +326,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261005T141500
 DTEND;TZID=Europe/Moscow:20261005T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:726109fd83f38562e0ac7e2a01a92356372cf246@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -340,12 +340,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261005T160000
 DTEND;TZID=Europe/Moscow:20261005T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a29f299e6b7e0c6314012b5fa4d8e92b97c03a6b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -354,22 +354,22 @@ SUMMARY:Философия (онлайн-курс)\, консультац
  ия групповая
 DTSTART;TZID=Europe/Moscow:20261005T193000
 DTEND;TZID=Europe/Moscow:20261005T210000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:1c8d9c32e5b26f8d45f2dcf832af760aede58f77@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Сиверцев Е. Ю.\nИсто
  чник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261007T100000
 DTEND;TZID=Europe/Moscow:20261007T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:6502320e73972bdfcfb3e269604e599708bdf751@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -377,12 +377,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261007T114500
 DTEND;TZID=Europe/Moscow:20261007T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:0ea95b920f2f61a8b51d3cde2274919cbd218a4a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -390,33 +390,33 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261007T151500
 DTEND;TZID=Europe/Moscow:20261007T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:5739bde1a73c30b2697c37a8f8c35ce13e1ccaf4@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261007T170000
 DTEND;TZID=Europe/Moscow:20261007T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d0edfcd2746f4f4a3bf5003e9f779b55a1466a2a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261009T100000
 DTEND;TZID=Europe/Moscow:20261009T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:f2eb2647dbad0cdfda9bdd30ab7bbe848cbe242e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -424,24 +424,24 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261009T114000
 DTEND;TZID=Europe/Moscow:20261009T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c9ca4036f2664312f28c390960aad50c8c1c863b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261010T141500
 DTEND;TZID=Europe/Moscow:20261010T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e913e17f5ab8a2f3f7fc51251842d022e98a1980@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -449,12 +449,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261010T160000
 DTEND;TZID=Europe/Moscow:20261010T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:72d11fdfcd25022ffbc13afb746b65b2d3085a6e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -463,12 +463,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261012T100000
 DTEND;TZID=Europe/Moscow:20261012T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d54e181b9ce64e49fc9f5d14aaefa127398392d8@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -477,12 +477,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261012T114500
 DTEND;TZID=Europe/Moscow:20261012T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:0a740d070af4c6f1abfca1d25747de53fcb93354@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -491,12 +491,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, семинар
 DTSTART;TZID=Europe/Moscow:20261012T141500
 DTEND;TZID=Europe/Moscow:20261012T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:ce4613ecf1bfa85a97a31545d48569e2040542a1@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250
 END:VEVENT
@@ -505,12 +505,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, семинар
 DTSTART;TZID=Europe/Moscow:20261012T160000
 DTEND;TZID=Europe/Moscow:20261012T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:5f1e32c0c8de1bbd10b6dbc21a67cd64ac4b4457@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250
 END:VEVENT
@@ -518,12 +518,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261014T100000
 DTEND;TZID=Europe/Moscow:20261014T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:230ce2b74e71e90911bdfedd281ec1e98160c8df@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -531,12 +531,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261014T114500
 DTEND;TZID=Europe/Moscow:20261014T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:805d72a2120ecd66195826e1fca603bb88377499@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -544,12 +544,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261014T141500
 DTEND;TZID=Europe/Moscow:20261014T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e24bc64f89526fe771d4428ef8284de4076ed68d@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -557,12 +557,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261014T160000
 DTEND;TZID=Europe/Moscow:20261014T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3449f5e985a8c7a6d0d7f9588c8f739ec317bb0f@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -571,12 +571,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261016T100000
 DTEND;TZID=Europe/Moscow:20261016T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:1e3c26b140cf1ea7dddb4fe5e587bd328e0dc44a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -584,12 +584,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261016T114000
 DTEND;TZID=Europe/Moscow:20261016T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:b06ac9331493a3868344b5c12b4bcebb18a932cc@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -597,12 +597,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261016T140000
 DTEND;TZID=Europe/Moscow:20261016T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3e393fef0d7123ca09fdb269eb1e99244d9064d6@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -610,12 +610,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261019T141500
 DTEND;TZID=Europe/Moscow:20261019T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:9b7b91cc143a9499c122e829d4bc9df7e70df4d4@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -624,12 +624,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261019T160000
 DTEND;TZID=Europe/Moscow:20261019T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:73180295827a7103c68f3f63dde59abc3b65135e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -638,22 +638,22 @@ SUMMARY:Философия (онлайн-курс)\, консультац
  ия групповая
 DTSTART;TZID=Europe/Moscow:20261019T193000
 DTEND;TZID=Europe/Moscow:20261019T210000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:2d9270e89a05a69ad2d847cde8f9e3aacc391a16@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Сиверцев Е. Ю.\nИсто
  чник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261021T100000
 DTEND;TZID=Europe/Moscow:20261021T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c21ef6fe6192c893ff148c07792b14e57fb36e5c@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -661,12 +661,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261021T114500
 DTEND;TZID=Europe/Moscow:20261021T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:6f349a6db98ea92bd171a62f2e8ffbac41f74a8d@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -674,33 +674,33 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261021T151500
 DTEND;TZID=Europe/Moscow:20261021T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a2cd29d9b481ffd8cc49fb1e21780998702e9e57@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261021T170000
 DTEND;TZID=Europe/Moscow:20261021T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:31e434cc67587668b76131ce51a1719486892b37@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261023T100000
 DTEND;TZID=Europe/Moscow:20261023T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3551253ade3d764cc9a6047c464265a87a0fdb30@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -708,12 +708,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261023T114000
 DTEND;TZID=Europe/Moscow:20261023T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c3071192d0262d4171771bde5fdb444017a5fef7@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -721,12 +721,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261023T140000
 DTEND;TZID=Europe/Moscow:20261023T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:731183a5fc1873207533e441550d59317aba277d@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -734,12 +734,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261026T141500
 DTEND;TZID=Europe/Moscow:20261026T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:49655e197fa19ba1f509e6658f4a5d54d02d412f@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -748,12 +748,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261026T160000
 DTEND;TZID=Europe/Moscow:20261026T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:46402c80bbe083796bf895bcfed08af36e956668@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -761,12 +761,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261028T100000
 DTEND;TZID=Europe/Moscow:20261028T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:9fc0cd72ed2b0f76f3ace3a6f3bb44556a30ada3@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -774,12 +774,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261028T114500
 DTEND;TZID=Europe/Moscow:20261028T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:111d370967416b8c23042ca7779524d7fec2e4e4@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -787,33 +787,33 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261028T151500
 DTEND;TZID=Europe/Moscow:20261028T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a8e84ea14105dfbcba4c8406dab981efb7cad5b7@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261028T170000
 DTEND;TZID=Europe/Moscow:20261028T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e763b460b39c16e26ffc306e97de567905d723e9@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261030T100000
 DTEND;TZID=Europe/Moscow:20261030T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c4fe7b33d3e7fa2e9605984cea01686cf3709146@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -821,12 +821,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261030T114000
 DTEND;TZID=Europe/Moscow:20261030T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d60606ed1e6af3718af0cf6da81a1f0d8974f51f@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -834,24 +834,24 @@ SUMMARY:Безопасность жизнедеятельности\, са
  м. работа в присутствии преподавателя
 DTSTART;TZID=Europe/Moscow:20261030T140000
 DTEND;TZID=Europe/Moscow:20261030T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:43c551a65364e2b95e2658eb0aa829129f501f7e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261031T141500
 DTEND;TZID=Europe/Moscow:20261031T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d91e72444d698d9a1adbbe0b9c581dc429cf0701@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -859,12 +859,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261031T160000
 DTEND;TZID=Europe/Moscow:20261031T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:fe043a8028b4bec6a34f58a7a0ef567fee230fb3@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -873,12 +873,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261102T141500
 DTEND;TZID=Europe/Moscow:20261102T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:fe872855b735daa3a9d6707515d100450baf503a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -887,12 +887,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261102T160000
 DTEND;TZID=Europe/Moscow:20261102T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4a4cdde809099e49812f8be51982722e4bca0664@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 2226\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2226
 END:VEVENT
@@ -901,23 +901,23 @@ SUMMARY:Философия (онлайн-курс)\, консультац
  ия групповая
 DTSTART;TZID=Europe/Moscow:20261102T193000
 DTEND;TZID=Europe/Moscow:20261102T210000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:42eed7c1e046855f9473d9559489f14ec5c0d4b5@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Сиверцев Е. Ю.\nИсто
  чник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261106T100000
 DTEND;TZID=Europe/Moscow:20261106T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3e9274bf5d87450fff03a164f5f71e37f8c5404b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -925,12 +925,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261106T114000
 DTEND;TZID=Europe/Moscow:20261106T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:0a35ed1969d6580747a84259ea08c3dcdfe51220@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -938,24 +938,24 @@ SUMMARY:Безопасность жизнедеятельности\, са
  м. работа в присутствии преподавателя
 DTSTART;TZID=Europe/Moscow:20261106T140000
 DTEND;TZID=Europe/Moscow:20261106T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:86e09acab70bcf842538bc1c9f667f1a5786f8c7@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261107T141500
 DTEND;TZID=Europe/Moscow:20261107T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c5f6f5660f4f0d1068e30b706b071bc296ab8633@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -963,12 +963,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261107T160000
 DTEND;TZID=Europe/Moscow:20261107T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:05d0ec5ecbed57ee62e740dcc538383c4d7e9f42@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -977,12 +977,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261109T100000
 DTEND;TZID=Europe/Moscow:20261109T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:978efde36ff352aface36efeebca964d114f7c64@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1207\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1207
 END:VEVENT
@@ -991,12 +991,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261109T114500
 DTEND;TZID=Europe/Moscow:20261109T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:0e2661b10b7253ebb8089128e83924997ac1d2be@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1207\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1207
 END:VEVENT
@@ -1004,12 +1004,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261110T160000
 DTEND;TZID=Europe/Moscow:20261110T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:1636fce0c776f76b6c43797e1490bdf2a9e7155a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1017,12 +1017,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261110T174500
 DTEND;TZID=Europe/Moscow:20261110T191500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d4311b213183726c7df0dcf17cc39cd3989b55cd@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Бейсенбаев Р. М.\nАу
  дитория: Санкт-Петербургское шоссе\, д. 109
  \, лит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1030,12 +1030,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261111T100000
 DTEND;TZID=Europe/Moscow:20261111T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:1f25d6cb3a4efea4b50739aa3aeddee2e879a740@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -1043,12 +1043,12 @@ BEGIN:VEVENT
 SUMMARY:Электив. Теория игр\, семинар
 DTSTART;TZID=Europe/Moscow:20261111T114500
 DTEND;TZID=Europe/Moscow:20261111T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:9ef5df75b48f4e45997ab5d8939db02a3c49afe7@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Зенкевич Н. А.\nАуди
  тория: Санкт-Петербургское шоссе\, д. 109\, 
  лит. А\, 1218\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1218
 END:VEVENT
@@ -1057,12 +1057,12 @@ SUMMARY:Безопасность жизнедеятельности\, ле
  кция
 DTSTART;TZID=Europe/Moscow:20261113T100000
 DTEND;TZID=Europe/Moscow:20261113T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:513b406b9486276fb2a75ffb469e79dff586bdb5@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1070,12 +1070,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261113T114000
 DTEND;TZID=Europe/Moscow:20261113T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:02918dd70a55d36ca15f9a746715ca2397aa279c@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1083,24 +1083,24 @@ SUMMARY:Безопасность жизнедеятельности\, са
  м. работа в присутствии преподавателя
 DTSTART;TZID=Europe/Moscow:20261113T140000
 DTEND;TZID=Europe/Moscow:20261113T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:f94b6d50729cda4641772a8a841ccac37363918b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261114T141500
 DTEND;TZID=Europe/Moscow:20261114T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:ce00afd34ca0ddda1be56e2f50215f309f5f43b8@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1108,12 +1108,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261114T160000
 DTEND;TZID=Europe/Moscow:20261114T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a130043bf1c047b5577f486057a1b1b956574845@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1122,12 +1122,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261116T141500
 DTEND;TZID=Europe/Moscow:20261116T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:cd7a92b0aca9444ee59e68bf74291cc7ac59f1fd@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1215\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1215
 END:VEVENT
@@ -1136,12 +1136,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261116T160000
 DTEND;TZID=Europe/Moscow:20261116T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e93f50bbeed8a0f841a14bec7382abc708565e61@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1215\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1215
 END:VEVENT
@@ -1150,65 +1150,65 @@ SUMMARY:Философия (онлайн-курс)\, консультац
  ия групповая
 DTSTART;TZID=Europe/Moscow:20261116T193000
 DTEND;TZID=Europe/Moscow:20261116T210000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:b49cf3d441a367f3b34e53f7a8700316a431d53c@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Сиверцев Е. Ю.\nИсто
  чник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Курсовая работа по менеджменту\, лек
  ция
 DTSTART;TZID=Europe/Moscow:20261117T090000
 DTEND;TZID=Europe/Moscow:20261117T103000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a8ac6bcc0a556ac4172722b5aef6e1eb3c567799@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Цыбова В. С.\nИсточн
  ик: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Курсовая работа по менеджменту\, лек
  ция
 DTSTART;TZID=Europe/Moscow:20261117T103000
 DTEND;TZID=Europe/Moscow:20261117T120000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:38df3043b700db4ec483a119324aa2a7c4a76ef8@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Цыбова В. С.\nИсточн
  ик: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261118T151500
 DTEND;TZID=Europe/Moscow:20261118T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:16ad67a610a714f39e8ee73dc7355af525ee94ae@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261118T170000
 DTEND;TZID=Europe/Moscow:20261118T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:182d69fec8a1e950f243bc5edfc874130787e1c5@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261120T100000
 DTEND;TZID=Europe/Moscow:20261120T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:c9c94bc6d702e8ea5c13703c6cd01cd61d9614ac@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1216,12 +1216,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261120T114000
 DTEND;TZID=Europe/Moscow:20261120T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:1955fb2ab5b96cd5dcc7e363b0d9ef11f0aff452@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1229,12 +1229,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20261121T100000
 DTEND;TZID=Europe/Moscow:20261121T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:e35686db301cc565c49dfe2c2bc7e92aad61ea02@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1243,12 +1243,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20261121T114500
 DTEND;TZID=Europe/Moscow:20261121T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:80e8cdc1fc2905d0195a198428c1565e03f7eccb@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1256,12 +1256,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261121T141500
 DTEND;TZID=Europe/Moscow:20261121T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:b0b114409ee53e088abceb2fa5437dcfeda33076@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1269,12 +1269,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261121T160000
 DTEND;TZID=Europe/Moscow:20261121T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4dc5a5d80cd6729c99f9db8a915e6c8bf94e5f56@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1283,12 +1283,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20261124T141500
 DTEND;TZID=Europe/Moscow:20261124T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:92d4a63114007a7285c856645842938db9d379ff@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1297,12 +1297,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, лекция
 DTSTART;TZID=Europe/Moscow:20261124T160000
 DTEND;TZID=Europe/Moscow:20261124T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:279c33374c770ba55e5db74d38712bbf5ccead11@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1310,12 +1310,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261125T141500
 DTEND;TZID=Europe/Moscow:20261125T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:821c31bf242c9dc8c43b163cb0e7476d56466b7a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -1323,12 +1323,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261125T160000
 DTEND;TZID=Europe/Moscow:20261125T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4d9716180792f711a80c340e0de9ccacc1f9af2a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -1337,12 +1337,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261127T100000
 DTEND;TZID=Europe/Moscow:20261127T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:918fd184a275414eb05cfbf14142908a8ecf7d12@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1350,12 +1350,12 @@ SUMMARY:Безопасность жизнедеятельности\, пр
  актическое занятие
 DTSTART;TZID=Europe/Moscow:20261127T114000
 DTEND;TZID=Europe/Moscow:20261127T131000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4fc9269aa7cd33c41d3a09cb4cdced8b59456771@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
@@ -1363,24 +1363,24 @@ SUMMARY:Безопасность жизнедеятельности\, са
  м. работа в присутствии преподавателя
 DTSTART;TZID=Europe/Moscow:20261127T140000
 DTEND;TZID=Europe/Moscow:20261127T153000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:71d5596c23d4609d88bfcb2b72aa2615103b4259@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Масликов А. А.\nАуди
  тория: Средний пр. В.О.\, д. 41\, лит. А\, 510\nИс
  точник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Средний пр. В.О.\, д. 41\, лит. А\, 510
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261128T100000
 DTEND;TZID=Europe/Moscow:20261128T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:68246b176291d469d5305c26fd285c96cee117ce@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1388,12 +1388,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261128T114500
 DTEND;TZID=Europe/Moscow:20261128T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:18ff0a1c0b8670c7d29137c07d4c0dad05f895ad@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1401,12 +1401,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261128T141500
 DTEND;TZID=Europe/Moscow:20261128T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:94c79b1bb5620c7f491a07a020b638a99eb75149@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1414,12 +1414,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261128T160000
 DTEND;TZID=Europe/Moscow:20261128T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:9ddabf85572c63f83287b5e6d05274b8f8303e2b@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1427,12 +1427,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261128T174500
 DTEND;TZID=Europe/Moscow:20261128T191500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:2fde1a04e4f5605ee1af7ef6742fdc23a45775c9@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1441,12 +1441,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261130T141500
 DTEND;TZID=Europe/Moscow:20261130T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:91f1b49867117284bfc3011ab036d626eb27f18f@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1215\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1215
 END:VEVENT
@@ -1455,12 +1455,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261130T160000
 DTEND;TZID=Europe/Moscow:20261130T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:efc9c0891a1e8ca917292e4e15d3ae39931c52fd@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1215\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1215
 END:VEVENT
@@ -1468,42 +1468,42 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261202T151500
 DTEND;TZID=Europe/Moscow:20261202T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:437d384d85df3b81567c58bb6d1d526ea5454c19@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261202T170000
 DTEND;TZID=Europe/Moscow:20261202T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a37c22800a020b5da78c1ce92ee78ade092b0c7a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Безопасность жизнедеятельности\, за
  чёт
 DTSTART;TZID=Europe/Moscow:20261204T100000
 DTEND;TZID=Europe/Moscow:20261204T130000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:8aa88a9acfbd70e938636dfc85478b5e83b335c2@spbu-timetable-to-ics
 DESCRIPTION:Источник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261205T141500
 DTEND;TZID=Europe/Moscow:20261205T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:bf3eb733e729762928085c16bcdc1b4be97f62ce@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1511,12 +1511,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261205T160000
 DTEND;TZID=Europe/Moscow:20261205T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:fcf52dbf4a84dc4a4aa8d60fc06aa1a5ffbc9751@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1524,12 +1524,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261205T174500
 DTEND;TZID=Europe/Moscow:20261205T191500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:02d659d583edb6b5cd77d2ee4925093bc49dd81e@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1538,12 +1538,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261207T141500
 DTEND;TZID=Europe/Moscow:20261207T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:351adc13138ae8d609fdb03047e4b0a69c40bf4a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1208\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1208
 END:VEVENT
@@ -1552,12 +1552,12 @@ SUMMARY:Моделирование бизнес-процессов\, се
  минар
 DTSTART;TZID=Europe/Moscow:20261207T160000
 DTEND;TZID=Europe/Moscow:20261207T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:87257fe2423fac4ccaebe8f42949f04fd715aa99@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Смирнов С. А.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1208\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1208
 END:VEVENT
@@ -1566,12 +1566,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, семинар
 DTSTART;TZID=Europe/Moscow:20261208T141500
 DTEND;TZID=Europe/Moscow:20261208T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:4d6c8bcdde9bfb3655a9449ad9a402f2731f2a04@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250
 END:VEVENT
@@ -1580,12 +1580,12 @@ SUMMARY:Бизнес-аналитика для принятия управ
  ленческих решений\, семинар
 DTSTART;TZID=Europe/Moscow:20261208T160000
 DTEND;TZID=Europe/Moscow:20261208T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a30dcb7175447456c2c7acddb85de993719ccc0d@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 2250
 END:VEVENT
@@ -1593,32 +1593,32 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261209T151500
 DTEND;TZID=Europe/Moscow:20261209T164500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:fdbcd751a6cd27b95d42aeb87c3416e4ff9d8bde@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261209T170000
 DTEND;TZID=Europe/Moscow:20261209T183000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:d9a5df305069c327b69c4c0aec623ada0fc36d9a@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nИсточ
  ник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261212T100000
 DTEND;TZID=Europe/Moscow:20261212T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:987c3e0849faa591c90e6d7ee7d042a7dc87a836@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1626,12 +1626,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261212T114500
 DTEND;TZID=Europe/Moscow:20261212T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:58696c9ea32948cd3e0d5b69349d757729c43625@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1639,12 +1639,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261212T141500
 DTEND;TZID=Europe/Moscow:20261212T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:06c51b33ced63d715491541d41b73e3c3dc9a006@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1652,12 +1652,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261212T160000
 DTEND;TZID=Europe/Moscow:20261212T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:982808aef36a10d933ce365117b67f483f1df1cc@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1665,12 +1665,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261212T174500
 DTEND;TZID=Europe/Moscow:20261212T191500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:67c1672f30b9c48168b035c475d0c607a8449723@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1678,12 +1678,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261216T141500
 DTEND;TZID=Europe/Moscow:20261216T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:abbae29b331ef3f6b79a041d432997d4c9f13bf0@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -1691,12 +1691,12 @@ BEGIN:VEVENT
 SUMMARY:Управленческий учет\, лекция
 DTSTART;TZID=Europe/Moscow:20261216T160000
 DTEND;TZID=Europe/Moscow:20261216T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:3c209b41ce99779ff45adfc98919dd4a2bc28cc8@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Никулин Е. Д.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1206\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1206
 END:VEVENT
@@ -1704,12 +1704,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261219T100000
 DTEND;TZID=Europe/Moscow:20261219T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:501696eedf4d5a5924448fdf1f26418266a4b2ae@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1717,12 +1717,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261219T114500
 DTEND;TZID=Europe/Moscow:20261219T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:2c1ec3c2f61ae10e816ec3d3e1dfa87fbacaf9af@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1730,12 +1730,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261219T141500
 DTEND;TZID=Europe/Moscow:20261219T154500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:a1c923537781952a7af7f37ff398fd9708148d14@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1743,12 +1743,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261219T160000
 DTEND;TZID=Europe/Moscow:20261219T173000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:80f118351f36427ef8d9abb5944e2b98bed2ac81@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1756,12 +1756,12 @@ BEGIN:VEVENT
 SUMMARY:Управление данными\, семинар
 DTSTART;TZID=Europe/Moscow:20261219T174500
 DTEND;TZID=Europe/Moscow:20261219T191500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:dfce21134c7bd17b24320678ed646651e5635955@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Марков Е. П.\nАудито
  рия: Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1219
 END:VEVENT
@@ -1769,12 +1769,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261226T100000
 DTEND;TZID=Europe/Moscow:20261226T113000
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:bdd93d1267e02f6ecbbf53c1f9799143fbf5d540@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
@@ -1782,12 +1782,12 @@ BEGIN:VEVENT
 SUMMARY:Операционный менеджмент\, лекция
 DTSTART;TZID=Europe/Moscow:20261226T114500
 DTEND;TZID=Europe/Moscow:20261226T131500
-DTSTAMP:20260912T083543Z
+DTSTAMP:20260912T124611Z
 UID:ff301133a0d904ece42f8b1b8be456866080e3eb@spbu-timetable-to-ics
 DESCRIPTION:Преподаватель: Шарахин П. С.\nАудит
  ория: Санкт-Петербургское шоссе\, д. 109\, л
  ит. А\, 1301\nИсточник: timetable.spbu.ru
-LAST-MODIFIED:20260912T083543Z
+LAST-MODIFIED:20260912T124611Z
 LOCATION:Санкт-Петербургское шоссе\, д. 109\, ли
  т. А\, 1301
 END:VEVENT
